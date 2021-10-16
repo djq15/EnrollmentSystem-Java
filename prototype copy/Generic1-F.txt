@@ -1,0 +1,88 @@
+//MAIN
+package GenericEnrollment;
+import java.util.Scanner;
+
+
+public class Generic1 {
+    
+    public static void main(String[] args) {
+    Scanner sm = new Scanner(System.in);
+    Scanner sn = new Scanner(System.in);
+    
+    int a;
+   
+    System.out.println("Welcome to IETI");
+    System.out.println("(1) = first year first semester");
+    System.out.println("(2) = first year second semester");
+    System.out.println("(3) = second year first semester");
+    System.out.println("(4) = second year second semester");
+    System.out.println("(5) = third year first semester");
+    System.out.println("(6) = third year second semester");
+    System.out.println("(7) = fourth year first semester");
+    System.out.println("(8) = fourth year second semester");
+    
+    a = sm.nextInt();
+    
+    switch (a) {
+        
+    case 1:
+          
+    Generic2 link1 = new Generic2 ();
+    link1.display1();
+    
+    break; 
+    
+    case 2:
+    
+    Generic3 link2 = new Generic3 ();
+    link2.display2();
+   
+    break;
+    
+    case 3:
+    
+    Generic4 link3 = new Generic4 ();
+    link3.display3();
+    
+    break;
+    
+    case 4:
+    
+    Generic5 link4 = new Generic5 ();
+    link4.display4();
+    
+    break;
+    
+    case 5:
+    
+    Generic6 link5 = new Generic6 ();
+    link5.display5();
+    
+    break;
+    
+    case 6:
+    
+    Generic7 link6 = new Generic7 ();
+    link6.display6();
+    
+    break;
+    
+    case 7:
+    
+    Generic8 link7 = new Generic8 ();
+    link7.display7();
+    
+    break;
+    
+    case 8:
+    
+    Generic9 link8 = new Generic9 ();
+    link8.display8();
+    
+    break;
+    
+    }
+    
+    }
+
+    }  

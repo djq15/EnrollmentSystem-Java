@@ -1,0 +1,17 @@
+
+
+1** the input of 30000 or any bogus downpayment amount resulted 
+in a negative output which should not be
+-- investigate this
+
+2** learn how to compile java with multiple classes 
+(this is due to Jcreator having problems or any IDE that can't read
+full projects)
+-- also, need the proper java file on "exe" format
+
+3** to research proper "looping" techniques on java
+-- especially focus on something like incorporating parse
+of int to string or vice versa into the "if, else if, else" mechanism
+
+4** to include proper GUI in the future
+
